@@ -10,7 +10,9 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="50"
+        android:layout_margin="@dimen/text_input_layout_margin"
         android:hint="@string/hint_username">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -23,7 +25,7 @@
         android:id="@+id/password_text_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="@dimen/text_input_layout_margin"
         android:hint="@string/hint_password">
 
         <com.google.android.material.textfield.TextInputEditText
