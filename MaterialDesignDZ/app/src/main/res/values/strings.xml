@@ -2,4 +2,6 @@
     <string name="app_name">MaterialDesignDZ</string>
     <string name="test_image">TestImage</string>
     <string name="editTextPersonName">Name</string>
+    <string name="hint_password">Enter password</string>
+    <string name="hint_username">Enter username</string>
 </resources>
