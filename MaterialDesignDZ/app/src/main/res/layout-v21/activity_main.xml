@@ -8,10 +8,12 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/name_text_input_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:counterEnabled="true"
         app:counterMaxLength="15"
+        app:errorEnabled="true"
         app:counterOverflowTextAppearance="@style/CounterStyle"
         app:hintTextAppearance="@style/EditTextHintStyle"
         android:layout_margin="@dimen/text_input_layout_margin"

@@ -21,7 +21,7 @@
     </style>
     <!--Input field style-->
     <style name="EditTextStyle" parent="Theme.AppCompat.Light">
-        <item name="colorControlNormal">@android:color/black</item>
+        <item name="colorControlNormal">@android:color/holo_orange_light</item>
         <item name="colorControlActivated">#D500F9</item>
     </style>
 
